@@ -13,15 +13,17 @@ in your favorite shell interpreter.
 
 ## installation on linux : 
 
+you can install it on your system by simply doing :
 ```
 git clone https://github.com/MadMcCrow/PyAutoWallpaper.git
 cd PyAutoWallpaper
-cp autowallpaper.desktop ~/.config/autostart
-cp autowallpaper.desktop ~/.local/share/applications
-cp autowallpaper.py      ~/.local/share/applications # if you change that , edit the .desktop file
+make install
 ```
 
-or alternatively you can use the included Makefile :`make install` and `make clean` to remove
+to remove it :
+```
+make clean
+```
 
 
 ## limitations :

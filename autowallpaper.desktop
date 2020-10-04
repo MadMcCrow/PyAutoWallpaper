@@ -1,8 +1,12 @@
 [Desktop Entry]
+Version=1.0
 Name=AutoWallpaper
 GenericName=PyAutoWallpaper
 Comment= will automatically download a wallpaper from unsplash
-Exec=python3 ~/.autowallpaper.py
+Exec=$SHELL -c 'python3 ~/.local/share/applications/autowallpaper.py'
+Icon=file
 Terminal=false
 Type=Application
+Categories=Utility;Application;
 X-GNOME-Autostart-enabled=true
+

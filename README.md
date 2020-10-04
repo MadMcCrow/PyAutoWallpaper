@@ -17,8 +17,12 @@ in your favorite shell interpreter.
 git clone https://github.com/MadMcCrow/PyAutoWallpaper.git
 cd PyAutoWallpaper
 cp autowallpaper.desktop ~/.config/autostart
-cp autowallpaper.py      ~/.autowallpaper.py # if you change that , edit the .desktop file
+cp autowallpaper.desktop ~/.local/share/applications
+cp autowallpaper.py      ~/.local/share/applications # if you change that , edit the .desktop file
 ```
+
+or alternatively you can use the included Makefile :`make install` and `make clean` to remove
+
 
 ## limitations :
 

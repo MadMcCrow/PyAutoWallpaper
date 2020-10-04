@@ -10,3 +10,4 @@ install :
 	
 clean :
 	rm $(INSTALL_FOLDER)/autowallpaper*
+	rm ~/.config/autostart/autowallpaper*

@@ -11,6 +11,15 @@ python autowallpaper.py
 ```
 in your favorite shell interpreter.
 
+## installation on linux : 
+
+```
+git clone https://github.com/MadMcCrow/PyAutoWallpaper.git
+cd PyAutoWallpaper
+cp autowallpaper.desktop ~/.config/autostart
+cp autowallpaper.py      ~/.cache # if you change that , edit the .desktop file
+```
+
 ## limitations :
 
 it only works in Gnome 3 and maybe on windows (untested)

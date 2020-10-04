@@ -1,4 +1,4 @@
-#! python3
+#! /usr/bin/python3
 
 # this script download an image from unsplash for your background
 # It has been tested on Ubuntu 20.04
@@ -26,7 +26,7 @@ FILE_PATH = '/'.join([DOWNLOAD_FOLDER,'unsplash.jpg'])
 # URL Creation
 BASE_URL = 'https://source.unsplash.com'
 RES_URL  = '1920x1080'
-KEYWORDS = ['nature', 'water']
+KEYWORDS = ['HD Wallpapers', 'Experimental','Film']
 URL      = '/'.join([BASE_URL,RES_URL,'?' + ','.join(KEYWORDS)])
 
 # make sure folder exists

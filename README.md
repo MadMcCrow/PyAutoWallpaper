@@ -17,7 +17,7 @@ in your favorite shell interpreter.
 git clone https://github.com/MadMcCrow/PyAutoWallpaper.git
 cd PyAutoWallpaper
 cp autowallpaper.desktop ~/.config/autostart
-cp autowallpaper.py      ~/.cache # if you change that , edit the .desktop file
+cp autowallpaper.py      ~/.autowallpaper.py # if you change that , edit the .desktop file
 ```
 
 ## limitations :
